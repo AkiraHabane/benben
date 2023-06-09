@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 08, 2023 at 06:33 PM
+-- Generation Time: Jun 09, 2023 at 08:10 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -67,7 +67,8 @@ INSERT INTO `customerlists` (`customerId`, `firstName`, `lastName`, `age`, `cont
 (2, 'MARIA JOSEPHINE', 'ABRERA', 23, '09052202841', 'josephineabrera@yahoo.com', 'L 21 Blk 29 Pegasus St. Phase 2 Palmera Springs, Caloocan', 'Crab'),
 (3, 'Akira', 'Habane', 23, '09208067060', 'jjjsabrera2020@plm.edu.ph', 'Intramuros, Manila', 'Dogfood'),
 (4, 'Jesus', 'Fries', 29, '0975426521', 'oppailover691@gmail.com', 'Lazada', 'fish'),
-(5, 'Luka', 'Doncic', 23, '698431262', 'mavericksdallas@gmail.com', 'America', 'Lebron James');
+(5, 'Luka', 'Doncic', 23, '698431262', 'mavericksdallas@gmail.com', 'America', 'Lebron James'),
+(6, 'Jonathan', 'Banks', 50, '09257841256', 'jonathanbanks@protonmail.com', 'Lot 2 Block 9 Neptune St. Phase 3 Villa Ala Carte Subdivision, Fairview, Metro Manila', 'Octopus');
 
 -- --------------------------------------------------------
 
@@ -92,7 +93,8 @@ INSERT INTO `tablereservation` (`reserveId`, `reserveDate`, `reserveTime`, `rese
 (2, '2023-06-12', '9:30 AM', 'Celebration', 6),
 (3, '2023-06-26', '8:00 PM', 'Celebration', 30),
 (4, '2023-06-17', '12:00 PM', 'Celebration', 30),
-(5, '2023-06-21', '7:30 PM', 'Celebration', 29);
+(5, '2023-06-21', '7:30 PM', 'Celebration', 29),
+(6, '2023-10-27', '5:00 PM', 'Private', 2);
 
 --
 -- Indexes for dumped tables
@@ -130,13 +132,13 @@ ALTER TABLE `adminaccount`
 -- AUTO_INCREMENT for table `customerlists`
 --
 ALTER TABLE `customerlists`
-  MODIFY `customerId` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `customerId` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `tablereservation`
 --
 ALTER TABLE `tablereservation`
-  MODIFY `reserveId` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `reserveId` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

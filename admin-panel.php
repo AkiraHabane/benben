@@ -14,6 +14,14 @@
   </style>
 </head>
 <body>
+<div class="container-fluid my-5">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="text-center mt-4">
+          <a href="admin.php" class="btn btn-outline-primary">Logout</a>
+        </div>
+      </div>
+    </div>
 
   <div class="container-xl my-5">
     <div class="row justify-content-center">
@@ -77,7 +85,7 @@
                                 <td> $dataRow[reserveType] </td>
                                 <td> $dataRow[numGuests] </td>
                                 <td>
-                                  <button type='button' class='btn btn-primary btn-sm' data-bs-target='#$dataRow[customerId]' data-bs-toggle='modal'>RESERVEE</button>
+                                  <button type='button' class='btn btn-primary btn-sm' data-bs-target='#$dataRow[customerId]' data-bs-toggle='modal'>Reservation Details</button>
                                 </td>
                               </tr>
 
